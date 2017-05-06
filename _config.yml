@@ -1,0 +1,23 @@
+# Site settings
+name: Evictor's Blog
+email: 2856527729@qq.com
+author: Evictor
+url: http://evictorcys.github.io
+resume_site: http://evictorcys.github.io
+baseurl: ""
+description: Actually, less is more!
+meta_description: Evictor's Blog 
+motto: Stay hungry,stay foolish.
+banner: Cease to struggle and cease to live.
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: 
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
