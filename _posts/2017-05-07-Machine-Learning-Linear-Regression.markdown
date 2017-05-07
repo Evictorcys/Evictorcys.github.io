@@ -26,3 +26,6 @@ $$
 $\theta_i $:Parameters , but how to choose $\theta_i $?
  - Minimize modeling error:
 # Gradient descent
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
