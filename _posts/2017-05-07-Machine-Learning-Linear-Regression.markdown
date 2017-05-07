@@ -29,3 +29,8 @@ tag: Andrew_Ng
  - - <img src="http://chart.googleapis.com/chart?cht=tx&chl= \alpha" style="border:none;"> = learning rate
  - Batch Gradient Descent:
  - - Each step of gradient descent uses all the training examples.
+![Machine_learning_image2!]({{ '/styles/images/machine_learning2.png' | prepend: site.baseurl }})
+ - Stochastic gradient descent(SGD):
+ - Momentum:
+ - AdaGrad:
+ - Adam:
