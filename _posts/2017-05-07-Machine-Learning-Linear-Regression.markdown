@@ -20,7 +20,10 @@ tag: Andrew_Ng
  - h = hypothesis
 ![Machine_learning_image1!]({{ '/styles/images/machine_learning1.png' | prepend: site.baseurl }})
 # Cost function
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= Hypothesis:h_\theta(x)=\theta_0 + \theta_1x" style="border:none;">
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \theta_i" style="border:none;">:Parameters , but how to choose <img src="http://chart.googleapis.com/chart?cht=tx&chl= \theta_i" style="border:none;">?
+ - Hypothesis:<img src="http://chart.googleapis.com/chart?cht=tx&chl= h_\theta(x)=\theta_0+\theta_1x" style="border:none;">
+ - <img src="http://chart.googleapis.com/chart?cht=tx&chl= \theta_i" style="border:none;">:Parameters , but how to choose <img src="http://chart.googleapis.com/chart?cht=tx&chl= \theta_i" style="border:none;">?
  - Minimize modeling error:
+ <img src="http://chart.googleapis.com/chart?cht=tx&chl= J(\theta_0,\theta_1)=\frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x^(i)-y^(i)))^2"style="border:none;">
 # Gradient descent
+ - <img src="http://chart.googleapis.com/chart?cht=tx&chl= \theta_j:=\theta_j-\alpha\frac{\partial}{\partial\theta_j}J(\theta)" style="border:none;">
+ - <img src="http://chart.googleapis.com/chart?cht=tx&chl= \alpha" style="border:none;"> = learning rate
