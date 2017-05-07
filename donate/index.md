@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 打赏
-header: 打赏
+title: Reward
+header: Reward
 ---
 
 您的支持是作者写作最大的动力！
