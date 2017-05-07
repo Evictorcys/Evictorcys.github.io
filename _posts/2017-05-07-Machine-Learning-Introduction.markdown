@@ -11,10 +11,13 @@ tag: Andrew Ng
 
 
 Introduction
+============
 
 Machine Learning Definition
+---------------------------
 
 Machine Learning Algorithms:
+----------------------------
  - Supervised learning
  - Unsupervised learning
  - Others: Reinforcement learning,recommender systems.
