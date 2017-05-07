@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ---
 layout: post
 title:  Machine Learning Linear regression with one variable
@@ -11,6 +10,7 @@ tag: Andrew_Ng
 {:toc}
 
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Model representation
 ## Notation:
  - m = Number of training examples
