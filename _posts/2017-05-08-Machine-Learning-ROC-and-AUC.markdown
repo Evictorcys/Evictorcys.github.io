@@ -15,13 +15,13 @@ tag: ROC_and_AUC
 ![fpr-and-tpr!]({{ '/styles/images/fpr-and-tpr.png' | prepend: site.baseurl }})
 ## ROC,AUC
 ### ROC(Receiver Operating Characteristic)
-![fpr-and-tpr!]({{ '/styles/images/Roccurves.png' | prepend: site.baseurl }})
- x-coordinate:EPR(false positive rate)
+![fpr-and-tpr!]({{ '/styles/images/Roccurves.png' | prepend: site.baseurl }})<br>
+ x-coordinate:EPR(false positive rate)<br>
  y-coordinate:TPR(true positive rate)
 - Why use ROC?
   ROC curves have an attractive property: they are insensitive to changes in class distribution. If the proportion of positive to negative instances changes in a test set, the ROC curves will not change.
-  ![fpr-and-tpr!]({{ '/styles/images/roc-and-precall.png' | prepend: site.baseurl }})
-   ROC and precision-recall curves under class skew. 
+  ![fpr-and-tpr!]({{ '/styles/images/roc-and-precall.png' | prepend: site.baseurl }})<br>
+   ROC and precision-recall curves under class skew.<br>
    (a) ROC curves, 1:1; (b) precision-recall curves, 1:1; (c) ROC curves, 1:10 and (d) precision-recall curves, 1:10.
 ### AUC(Area Under Curve)
 - Definition:The area under the ROC curve.
