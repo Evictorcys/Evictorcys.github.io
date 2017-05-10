@@ -20,7 +20,7 @@ tag: Andrew_Ng
  - h = hypothesis
 ![Machine_learning_image1!]({{ '/styles/images/machine_learning1.png' | prepend: site.baseurl }})
 # Cost function
- - Hypothesis:![Machine_learning_image]({{'/styles/images/h_x.png' | prepend: site.baseurl}})
+ - Hypothesis:![Machine_learning_image]({{'/styles/images/h_theta.png' | prepend: site.baseurl}})
  - ![Machine_learning_image]({{'/styles/images/theta_i.png' | prepend: site.baseurl}}):Parameters , but how to choose ![Machine_learning_image]({{'/styles/images/theta_i.png' | prepend: site.baseurl}})?
  - Minimize modeling error:
  - ![Machine_learning_image]({{'/styles/images/J_theta.png' | prepend: site.baseurl}})

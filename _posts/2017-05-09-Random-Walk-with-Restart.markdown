@@ -13,6 +13,14 @@ tag: Algorithm
 ## Introduction
 
 ## Formula
+随机游走是遍历图的一个随机过程，该过程收敛后会对应每个结点生成一个概率分布值，表示该结点被访问到的可能性。用T表示转移矩阵，T中的元素Tij表示从结点ei到结点ej的概率。Tij的计算公式如下：<br>
+![Machine_learning_image1!]({{ '/styles/images/RWS_T.png' | prepend: site.baseurl }})
+其中N(ei)表示与ei直接相连的结点集合，Wij表示结点ei和ej之间的权重（即这两个结点在知识库中的共现次数）。
+用rt表示迭代t次时的概率分布，重启随机游走模型可用以下公式表示：<br>
+![Machine_learning_image1!]({{ '/styles/images/RWS_R.png' | prepend: site.baseurl }})
+其中s为初始向量，λ为重启概率。最终达到平稳分布如下所示：<br>
+![Machine_learning_image1!]({{ '/styles/images/RWS_F.png' | prepend: site.baseurl }})
+
 
 ## Code
 	import random
