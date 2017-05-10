@@ -18,7 +18,7 @@ tag: ROC_and_AUC
 ![fpr-and-tpr!]({{ '/styles/images/Roccurves.png' | prepend: site.baseurl }})<br>
  x-coordinate:EPR(false positive rate)<br>
  y-coordinate:TPR(true positive rate)
-- Why use ROC?
+- Why use ROC?<br>
   ROC curves have an attractive property: they are insensitive to changes in class distribution. If the proportion of positive to negative instances changes in a test set, the ROC curves will not change.
   ![fpr-and-tpr!]({{ '/styles/images/roc-and-precall.png' | prepend: site.baseurl }})<br>
    ROC and precision-recall curves under class skew.<br>
@@ -27,3 +27,5 @@ tag: ROC_and_AUC
 - Definition:The area under the ROC curve.
 - Meaning:The AUC value is equivalent to the probability that a randomly chosen positive example is ranked higher than a randomly chosen negative example.
 - Notice: Because random guessing produces the diagonal line between (0, 0) and (1, 1), which has an area of 0.5, no realistic classifier should have an AUC less than 0.5.
+### Reference
+An introduction to ROC analysis-Tom Fawcett;
