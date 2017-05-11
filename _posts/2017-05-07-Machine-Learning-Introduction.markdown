@@ -29,4 +29,4 @@ with experience E.
  - Classification:Discrete valued output
 
 ### Unsupervised Learning:
- - Cluster
+ - Clustering
