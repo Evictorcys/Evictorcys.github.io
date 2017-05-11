@@ -24,7 +24,7 @@ Formally, the random walk model can be modeled as:<br>
 ![Machine_learning_image!]({{ '/styles/images/RWS_F.png' | prepend: site.baseurl }})
 
 
-## Code
+## Demo
 	import random
 	import numpy as np
 	def EntityRWS(G, restart_rate, root, max_step): 

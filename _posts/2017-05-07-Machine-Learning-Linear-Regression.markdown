@@ -27,10 +27,14 @@ tag: Andrew_Ng
 # Gradient descent
  - ![Machine_learning_image]({{'/styles/images/theta_j.png' | prepend: site.baseurl}})
  - ![Machine_learning_image]({{'/styles/images/alpha.png' | prepend: site.baseurl}})= learning rate
- - Batch Gradient Descent:
- - Each step of gradient descent uses all the training examples.
-![Machine_learning_image2!]({{ '/styles/images/machine_learning2.png' | prepend: site.baseurl }})
- - Stochastic gradient descent(SGD):
- - Momentum:
- - AdaGrad:
- - Adam:
+ - Batch Gradient Descent:Each step of gradient descent uses all the training examples.
+ - Stochastic gradient descent(SGD):Use one example in each iteration
+ - Mini-batch Gradient descent:Use some examples in each iteration
+![Machine_learning_image!]({{ '/styles/images/machine_learning2.png' | prepend: site.baseurl }})
+ - Momentum:<br>
+ Momentum is a method that helps accelerate SGD in the relevant direction and dampens oscillations. 
+ - AdaGrad:<br>
+ Adagrad is an algorithm for gradient-based optimization that does just this: It adapts the learning rate to the parameters, performing larger updates for infrequent and smaller updates for frequent parameters. For this reason, it is well-suited for dealing with sparse data. 
+ - Adam:<br>
+ Adaptive Moment Estimation (Adam) is another method that computes adaptive learning rates for each parameter. In addition to storing an exponentially decaying average of past squared gradients vt like Adadelta and RMSprop, Adam also keeps an exponentially decaying average of past gradients mt, similar to momentum.
+![Machine_learning_image!]({{ '/styles/images/contours_evaluation_optimizers.gif' | prepend: site.baseurl }})![Machine_learning_image!]({{ '/styles/images/saddle_point_evaluation_optimizers.gif' | prepend: site.baseurl }})
